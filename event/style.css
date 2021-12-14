@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 10;
+  width: 80%;
+}
+
+td {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  margin: 5px;
+  text-align: center;
+}
+
+
+td:nth-child(1) {
+    border-color: rgb(76, 0, 255);
+}
+td:nth-child(2) {
+    border-color: rgb(255, 0, 0);
+}
